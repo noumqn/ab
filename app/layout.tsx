@@ -184,7 +184,7 @@ function MainNav() {
   return (
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="flex items-center space-x-2">
-        <img src="/path/to/your-logo.png" alt="Abbakka Brigade Logo" className="h-8 w-auto" />
+        <img src="abbakka brigade logo.svg" alt="Abbakka Brigade Logo" className="h-8 w-auto" />
       </Link>
       <nav className="hidden md:flex gap-6">
         <Link href="/" className="text-sm font-medium transition-colors hover:text-primary">
