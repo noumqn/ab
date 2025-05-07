@@ -11,7 +11,7 @@ export default function CommunityPage() {
     {
       id: 1,
       title: "Virtual Networking Mixer",
-      date: "June 15, 2023",
+      date: "June 15, 2025",
       time: "7:00 PM - 8:30 PM EST",
       type: "Virtual",
       description:
