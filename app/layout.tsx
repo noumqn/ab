@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Button } from "@/components/ui/button"
 import "./globals.css"
 import { Suspense } from "react"
+import ab_logo from "../public/ab-bengaluru.png";
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -51,9 +52,11 @@ export default function RootLayout({
             <main className="flex-1">
               <Suspense>{children}</Suspense>
             </main>
+
+            {/* This is footer webpage view and code*/}
             <footer className="border-t bg-muted/50">
-              <div className="container py-8 md:py-12">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              <div className ="container m-auto md:py-12">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-8 padding_footer m-[30px]">
                   <div className="space-y-4">
                     <h3 className="text-lg font-semibold">About</h3>
                     <ul className="space-y-2">
@@ -184,9 +187,10 @@ function MainNav() {
   return (
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="flex items-center space-x-2">
-        <img src="abbakka brigade logo.svg" alt="Abbakka Brigade Logo" className="h-8 w-auto" />
+        {/* <span className="font-bold text-xl inline-block">Abbakka Brigade</span> */}
+        <img src= {ab_logo.src} alt = "AB_logo" className="w-[50px] h-[50px] ml-2"/> 
       </Link>
-      <nav className="hidden md:flex gap-6">
+      <nav className="hidden md:flex gap-6 m-auto">
         <Link href="/" className="text-sm font-medium transition-colors hover:text-primary">
           Home
         </Link>

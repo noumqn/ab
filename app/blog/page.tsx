@@ -76,7 +76,7 @@ export default function BlogPage() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#c53a1a] to-[#c53a1a]/80 text-white">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 m-auto">
           <div className="flex flex-col items-center space-y-4 text-center">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">The Abbakka Brigade Blog</h1>
             <p className="max-w-[700px] text-white/90 md:text-xl">
@@ -101,7 +101,7 @@ export default function BlogPage() {
 
       {/* Blog Content */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 m-auto">
           <Tabs defaultValue="all" className="w-full">
             <TabsList className="grid w-full grid-cols-5 mb-8">
               <TabsTrigger value="all">All</TabsTrigger>
@@ -183,7 +183,7 @@ export default function BlogPage() {
 
       {/* Newsletter Signup */}
       <section className="w-full py-12 md:py-24 bg-[#f3db03]/10">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 m-auto">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
               <h2 className="text-2xl font-bold tracking-tighter text-[#c53a1a] md:text-3xl">
