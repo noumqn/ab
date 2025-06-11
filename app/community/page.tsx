@@ -109,7 +109,7 @@ export default function CommunityPage() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#c53a1a] to-[#c53a1a]/80 text-white">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 relative z-10 m-auto">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
@@ -123,9 +123,9 @@ export default function CommunityPage() {
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button asChild size="lg" className="bg-[#f3db03] text-[#c53a1a] hover:bg-[#f3db03]/90">
-                  <Link href="#join-form">Join Now</Link>
+                  <Link href="https://chat.whatsapp.com/FKtE9ah9nfR7K8jZ4qRkyi">Join Now</Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+                <Button asChild variant="outline" size="lg" className="border-white bg-{blue} text-white hover:bg-white/10">
                   <Link href="#events">Explore Events</Link>
                 </Button>
               </div>
@@ -145,7 +145,7 @@ export default function CommunityPage() {
 
       {/* Community Stats */}
       <section className="w-full py-12 md:py-16 bg-white">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 relative z-10 m-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             <Card className="bg-[#f3db03]/10 border-[#f3db03]/20">
               <CardHeader className="pb-2">
@@ -189,7 +189,7 @@ export default function CommunityPage() {
 
       {/* Upcoming Events */}
       <section id="events" className="w-full py-12 md:py-24 lg:py-32 bg-white">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 relative z-10 m-auto">
           <div className="flex flex-col items-center space-y-4 text-center mb-10">
             <h2 className="text-3xl font-bold tracking-tighter text-[#c53a1a]">Upcoming Events</h2>
             <p className="max-w-[700px] text-gray-500 md:text-lg">
@@ -236,7 +236,7 @@ export default function CommunityPage() {
 
       {/* Discussion Forum */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-[#f3db03]/10">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 relative z-10 m-auto">
           <div className="flex flex-col items-center space-y-4 text-center mb-10">
             <h2 className="text-3xl font-bold tracking-tighter text-[#c53a1a]">Join the Conversation</h2>
             <p className="max-w-[700px] text-gray-600 md:text-lg">
@@ -282,7 +282,7 @@ export default function CommunityPage() {
 
       {/* Success Stories */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 relative z-10 m-auto">
           <div className="flex flex-col items-center space-y-4 text-center mb-10">
             <h2 className="text-3xl font-bold tracking-tighter text-[#c53a1a]">Success Stories</h2>
             <p className="max-w-[700px] text-gray-500 md:text-lg">
@@ -318,7 +318,7 @@ export default function CommunityPage() {
         id="join-form"
         className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#c53a1a] to-[#c53a1a]/80 text-white"
       >
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 relative z-10 m-auto">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Join Abbakka Brigade Today</h2>
