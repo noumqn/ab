@@ -1,7 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
-
+import Mission_Pic from "../../public/39690.jpg"
+import Ourstory_Pic from "../../public/6978211.jpg"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
@@ -26,7 +27,7 @@ export default function AboutPage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative h-[300px] sm:h-[400px] lg:h-[500px]">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src={Mission_Pic}
                 alt="Women in a collaborative workshop setting"
                 fill
                 className="object-cover rounded-lg"
@@ -87,21 +88,18 @@ export default function AboutPage() {
           <div className="grid gap-6 lg:grid-cols-[2fr_1fr] lg:gap-12 items-center">
             <div className="space-y-4">
               <p className="text-gray-600 md:text-lg">
-                Inspired by the legendary Queen Abbakka Chowta of Ullal, a trailblazing leader who fiercely defended Coastal Karnataka against invaders while ruling a prosperous kingdom, we seek to channel her spirit of resilience, courage, and unity. Her legacy runs deep in Karnataka's history, and we draw from her indomitable strength in everything we do.
+                Inspired by the legendary Queen Abbakka Chowta, a trailblazing leader who fiercely defended Coastal Karnataka against invaders while ruling a prosperous kingdom, we seek to channel her spirit of resilience, courage, and unity. Her legacy runs deep in Karnataka's history, and we draw from her indomitable strength in everything we do.
               </p>
               <p className="text-gray-600 md:text-lg">
-                In the same spirit, Abbakka Brigade is led by women who embody Queen Abbakka’s boldness, dedication, and passion for making a difference. Our leadership ensures the group reaches its milestones while staying true to our mission: building a safe, empowering environment for women who want to give back to society.
+                In the same spirit, Abbakka Brigade is powered by women who embody Queen Abbakka’s boldness, dedication, and passion for making a difference. This spirit ensures that we reach our milestones while staying true to our mission: building a safe, empowering environment for women who want to give back to society.
               </p>
               <p className="text-gray-600 md:text-lg">
-                To uphold the safety and trust within our community, every member is carefully verified before joining. This ensures your personal information, conversations, and contributions stay secure within our circle of strong, like-minded women.
-              </p>
-              <p className="text-gray-600 md:text-lg">
-                As part of Abbakka Brigade, you’ll have the chance to engage in regular online and offline events that connect, inspire, and empower. And if you ever find yourself in a challenging situation—whether it’s in Bengaluru or elsewhere in Karnataka—Abbakka Brigade has your back. Just reach out, and your community of sisters will be there to support you.
+                As an Abbakka Brigade member, you’ll have the chance to organise and attend events that empower, connect and inspire. You'll take meaningful action to help and support other women. And if you ever find yourself in a challenging situation—whether it’s in Bengaluru or elsewhere in Karnataka— Abbakka Brigade will have your back. Just reach out, and your community of sisters will be there to support you, in any way that you need. 
               </p>
             </div>
             <div className="relative h-[300px] sm:h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=300"
+                src={Ourstory_Pic}
                 alt="Founder Priya Sharma speaking at an event"
                 fill
                 className="object-cover rounded-lg"
@@ -123,25 +121,25 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                name: "Priya Sharma",
+                name: "Janhavi Desai",
                 role: "Founder & CEO",
                 bio: "Former corporate executive with a passion for women's empowerment and community building.",
                 image: "/placeholder.svg?height=300&width=300",
               },
               {
-                name: "Aisha Johnson",
+                name: "Dushyanth Dubey",
                 role: "Community Director",
                 bio: "Community building expert with 10+ years experience in creating inclusive spaces for growth.",
                 image: "/placeholder.svg?height=300&width=300",
               },
               {
-                name: "Maya Patel",
+                name: "Tarini",
                 role: "Content & Education Lead",
                 bio: "Educator and writer dedicated to creating accessible learning resources for women.",
                 image: "/placeholder.svg?height=300&width=300",
               },
               {
-                name: "Sarah Chen",
+                name: "Santaz Sahithi",
                 role: "Partnerships & Outreach",
                 bio: "Relationship builder connecting Abbakka Brigade with organizations that share our mission.",
                 image: "/placeholder.svg?height=300&width=300",

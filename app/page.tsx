@@ -22,8 +22,7 @@ export default function Home() {
                   Empowering Women to Rise Together
                 </h1>
                 <p className="max-w-[600px] text-white/90 md:text-xl">
-                  Abbakka Brigade is a supportive community dedicated to helping women achieve personal and professional
-                  growth through connection, resources, and empowerment.
+                  Abbakka Brigade is a community-driven initiative empowering women across Karnataka by offering free legal aid, safety resources, mental health support,  and a strong sense of community — inspired by the fearless spirit of Rani Abbakka Chowta.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
